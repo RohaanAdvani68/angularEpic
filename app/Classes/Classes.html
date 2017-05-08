@@ -1,0 +1,9 @@
+<div>
+  <h1>MY CLASSES</h1>
+  <ul>
+    <li ng-repeat="c in classes" ng-if="!c.isDiscussion">
+        {{c.name}}
+    </li>
+  </ul>
+  <button href="#/view2">Add Class</button>
+</div>
